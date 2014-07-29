@@ -1,0 +1,85 @@
+body {
+  background-image: url("../images/stripes.png"); }
+
+.home {
+  font-size: 20px;
+  display: block;
+  position: relative;
+  font-family: helvetica; }
+
+h1 {
+  font-size: 80px;
+  font-family: helvetica;
+  text-align: center; }
+
+h2 {
+  font-size: 45px;
+  font-family: helvetica; }
+
+h3 {
+  font-size: 30px;
+  font-family: helvetica; }
+
+.beef {
+  background-color: #805000;
+  color: #FFFFFF;
+  text-shadow: #000000 -4px -4px; }
+
+.fish {
+  background-color: #2098c8;
+  color: #FFFFFF;
+  text-shadow: #000000 -4px -4px; }
+
+.chicken {
+  background-color: #FF0000;
+  color: #FFFFFF;
+  text-shadow: #000000 -4px -4px; }
+
+nav {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 0px;
+  cursor: crosshair;
+  display: inline-block;
+  width: 74%;
+  min-width: 74%;
+  transition: border-radius 0.5s ease;
+  border: 3px black dashed; }
+
+nav:hover {
+  border-radius: 6%; }
+
+iframe {
+  width: 400px;
+  height: 400px; }
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 5px; }
+
+.chickimage {
+  width: 100%;
+  display: inline-block;
+  opacity: 0.7;
+  float: left;
+  transition: opacity 0.5s ease-in-out; }
+
+.chickimage:hover {
+  opacity: 1; }
+
+nav li {
+  display: inline-block;
+  margin: 0px;
+  min-width: 30%; }
+
+@media all and (max-width: 640px) {
+  iframe {
+    width: 100%; }
+  nav {
+    border: none;
+    background: none; } }
