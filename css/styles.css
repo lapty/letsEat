@@ -77,9 +77,87 @@ nav li {
   margin: 0px;
   min-width: 30%; }
 
+.container {
+  position: relative;
+  display: inline-block;
+  min-width: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+.box {
+  position: relative;
+  display: inline-block;
+  min-width: 100%;
+  margin: 2px; }
+
+.title {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  margin: 2px; }
+
+.ingredients {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  margin: 2px; }
+
+.directions {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  margin: 2px; }
+
+/*FISH LAYOUT*/
+.ftitle {
+  position: relative;
+  display: inline-block;
+  width: 85%;
+  margin: 2px; }
+
+.fingredients {
+  position: relative;
+  display: inline-block;
+  width: 36%;
+  margin: 2px; }
+
+.fdirections {
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  margin: 2px; }
+
+/*BEEF*/
+.btitle {
+  position: relative;
+  display: inline-block;
+  width: 33%;
+  margin: 2px;
+  float: left; }
+
+.bingredients {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+  margin: 2px;
+  float: left; }
+
+.bdirections {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+  margin: 2px;
+  float: left; }
+
 @media all and (max-width: 640px) {
   iframe {
     width: 100%; }
   nav {
     border: none;
-    background: none; } }
+    background: none; }
+  .title, .ingredients, .directions {
+    width: 100%; }
+  .ftitle, .fingredients, .fdirections {
+    width: 100%; }
+  .btitle, .bingredients, .bdirections {
+    width: 100%; } }
